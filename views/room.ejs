@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Api for streaming</title>
+    <link rel="stylesheet" href="style.css">	
+</head>
+<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+<script>
+	
+	const ROOM_ID = '<%= roomId %>';
+	console.log(ROOM_ID);	
+</script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.16/peer.min.js"></script> -->
+<script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js" defer></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js" defer></script> 
+<script  src="/socket.io/socket.io.js" defer></script>
+<script src="sketch.js" defer></script>
+<body>
+	<button id="clearCanvas">Clear</button>
+    
+</body>
+
+</html>
